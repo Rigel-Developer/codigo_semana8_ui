@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:semana8_ui/constants.dart';
 import 'package:semana8_ui/widget/item_slider_widget.dart';
 
+import '../widget/item_history_widget.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -204,6 +206,13 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
+                  const SizedBox(
+                    height: 12,
+                  ),
+                  const ItemHistoryWidget(),
+                  const ItemHistoryWidget(),
+                  const ItemHistoryWidget(),
+                  const ItemHistoryWidget(),
                 ],
               ),
             )
